@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I'm Sorry</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="glitter"></canvas>
+
+<section id="intro">
+
+<h2 id="typing"></h2>
+
+<div class="heart">❤️</div>
+
+<button id="enterBtn">Enter My Heart</button>
+
+</section>
+
+
+<section id="apology" class="hidden">
+
+<h1>I'm truly sorry jaan</h1>
+
+<p>
+I am sorry I let you down but I promise that was the last time you felt that way because of me.
+
+You are the most special and important person in my life and seeing you upset because of me is a weight I can't carry.
+
+I know I acted immaturely that hurt you.
+
+I promise to listen better and become the person you deserve.
+
+Sorry for all those tears.
+
+Now let me make you feel special and happy for the rest of my breath.
+</p>
+
+<div class="arrow" onclick="showPhotos()">🏹</div>
+
+</section>
+
+
+<section id="photos" class="hidden">
+
+<img src="pic1.jpg" onclick="openImg(this)">
+<img src="pic2.jpg" onclick="openImg(this)">
+<img src="pic3.jpg" onclick="openImg(this)">
+
+<div class="arrow" onclick="showFinal()">🏹</div>
+
+</section>
+
+
+<section id="final" class="hidden">
+
+<h1>Will you forgive me</h1>
+
+<p>I will do anything to make it up to you</p>
+
+<button id="forgive">Forgive me ❤️</button>
+
+<button id="angry">Still angry</button>
+
+<h2 id="loveMsg"></h2>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
